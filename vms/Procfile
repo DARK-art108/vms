@@ -1,1 +1,1 @@
-web: gunicorn vms.wsgi --log-file -
+web: gunicorn --pythonpath vms/vms vms.wsgi --log-file -
